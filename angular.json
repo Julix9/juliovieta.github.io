@@ -32,6 +32,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/juliovieta.github.io/",
               "budgets": [
                 {
                   "type": "initial",
@@ -92,6 +93,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
